@@ -262,6 +262,9 @@ top: 10px;
 .wrapper .btn{
     display: block;
 }
+.content .row_header img{
+  display: none;
+  }	
 .wrapper .nav-links{
     position: fixed;
     height: 100vh;
