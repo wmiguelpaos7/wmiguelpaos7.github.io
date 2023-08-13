@@ -412,8 +412,14 @@ font-weight: 600;
 }
 .home .main-text{
     text-align: center;
-    padding: 500px 10% 10px;
+    padding: 400px 10% 10px;
 
+}
+
+@media (max-width:920px){
+  .home .main-text{
+    padding: 200px 10% 10px;
+  }
 }
 .main-text h1{
     font-size: 60px;
