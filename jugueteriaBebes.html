@@ -1,0 +1,412 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora Micky</title>
+
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Style Css Link -->
+    <link rel="icon" href="images/logo.ico">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+
+
+<body>
+
+    <!-- Header Start -->
+    <nav class="top_header">
+        <div class="wrapper">
+          <div class="logo"><a href="index.html"><img src="images/logo.png" width="50"></a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#" class="desktop-item">Campañas</a>
+                <input type="checkbox" id="showDrop">
+                <label for="showDrop" class="mobile-item">Campañas</label>
+                <ul class="drop-menu">
+                    <li><a href="verano.html">Verano</a></li>
+                    <li><a href="escolar.html">Escolar</a></li>
+                    <li><a href="diadelamadre.html">Día de la madre</a></li>
+                    <li><a href="diadelpadre.html">Día del padre</a></li>
+                    <li><a href="halloween.html">Halloween</a></li>
+                    <li><a href="navidad.html">Navidad</a></li>
+                </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Productos</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Productos</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row_header">
+                    <img src="images/dmtiendajpg.jpg" alt="">
+                  </div>
+                  <div class="row_header">
+                    <header>Jugueteria</header>
+                    <ul class="mega-links">
+                      <li><a href="jugueteriaNiñas.html">Niñas</a></li>
+                      <li><a href="jugueteriaNiños.html">Niños</a></li>
+                      <li><a href="jugueteriaBebes.html">Bebés</a></li>
+                    
+                    </ul>
+                  </div>
+                  <div class="row_header">
+                    <header>Limpieza y Cuidado</header>
+                    <ul class="mega-links">
+                        <li><a href="cuidado.html">Cuidado</a></li>
+                        <li><a href="limpieza.html">Limpieza</a></li>
+                        <li><a href="otros_L_C.html">Otros</a></li>
+                    </ul>
+                  </div>
+                  <div class="row_header">
+                    <header>Hogar</header>
+                    <ul class="mega-links">
+                        <li><a href="decoracion.html">Decoración</a></li>
+                        <li><a href="tomatodos.html">Tomatodos</a></li>
+                        <li><a href="otros_H.html">Otros</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+          
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+      </nav>
+    <!-- Header End -->
+
+    <!-- Home Section Start --> 
+    <div class="home" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./images/portada-bebes.jpg);">
+        <div class="main-text">
+            <h1>Juguetería <br>Bebés</h1>
+            <p>Aqui encontrarás los mejores productos a precio de importación.</p>
+            <p>Jirón Inambari 763 - Cercado de Lima</p>
+            <br><br>
+
+            <a aria-label='Contactar' class='h-button centered' data-text='WhatsApp' href='https://api.whatsapp.com/send?phone=51923264870'>
+                <span>C</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+                <span>a</span>
+                <span>r</span>
+              </a>
+              
+        </div>
+    </div>
+    <!-- Home Section End -->
+
+
+
+
+    <!-- COTIZAR -->
+    <section class="shopping-cart" id="imprimir">
+        <h1 class="text-center">Cotizar</h1>
+          <hr class="hr_cotizar">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6 class="title-shopping-cart">Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="title-shopping-cart">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6 class="title-shopping-cart">Cantidad</h6>
+                    </div>
+                </div>
+            </div>
+  
+          
+            <!-- ITEMS -->
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+            <!-- ITEMS -->
+  
+            
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total:</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">S/ 0</p>
+  
+                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                            data-delay="2000">
+                            <div class="toast-body text-white">
+                                Agregaste más unidades
+                            </div>
+                        </div>
+  
+                      <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Borrar todo</button>
+                            
+                      <button onclick="window.print()" class="btn-imprimir">Guardar PDF</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+    <!-- COTIZAR -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    <h2 class="title2" > Categorias </h2>
+  
+  
+    <nav class="navbar_ref">
+        <ul>
+        <li><a href="#Variedades">Variedades</a></1i>
+        </ul>
+    </nav>
+  
+  
+  
+      <div class="ful-img" id="fulImgBox">
+      <img src="imgs/1.jpg" id="fulImg" alt="">
+      <span onclick="closeImg()" class="cerrar_foto">Cerrar</span>
+      </div>
+  
+  
+  
+  
+      
+  
+  
+  
+  
+  
+  
+      <h2 class="title_jugueteria_bebes" id="Variedades"> Variedades </h2>
+      <p class="descripcion-galery">Variedades importados.</p>
+  
+      <section class="store">
+          <div class="container">
+              <div class="items">
+    
+                  <div class="row">
+                      <div class="producto_galeria">
+                          <div class="item shadow mb-4">
+                              <h3 class="item-title">Four pack camiones rojos</h3>
+                              
+                              <img class="item-image" src="./images/imagesjugueteria/bebes/1.png" onclick="openFulImg(this.src)">
+    
+                              <div class="item-details">
+                                  <h4 class="item-price">S/ 9.99</h4>
+                                  <button class="item-button btn btn-primary addToCart">Cotizar</button>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="row">
+                      <div class="producto_galeria">
+                          <div class="item shadow mb-4">
+                              <h3 class="item-title">Trailer con autos</h3>
+    
+                              <img class="item-image" src="./images/imagesjugueteria/bebes/2.png" onclick="openFulImg(this.src)">
+    
+                              <div class="item-details">
+                                  <h4 class="item-price">S/ 9.99</h4>
+                                  <button class="item-button btn btn-primary addToCart">Cotizar</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+    
+                  <div class="row">
+                      <div class="producto_galeria">
+                          <div class="item shadow mb-4">
+                              <h3 class="item-title">Four pack gruas</h3>
+    
+                              <img class="item-image" src="./images/imagesjugueteria/bebes/3.png" onclick="openFulImg(this.src)">
+    
+                              <div class="item-details">
+                                  <h4 class="item-price">S/ 9.99</h4>
+                                  <button class="item-button btn btn-primary addToCart">Cotizar</button>
+                              </div>
+                          </div>
+                      </div>
+    
+                   </div>
+                   <div class="row">
+                      <div class="producto_galeria">
+                          <div class="item shadow mb-4">
+                              <h3 class="item-title">Camioneta azul</h3>
+    
+                              <img class="item-image" src="./images/imagesjugueteria/bebes/4.png" onclick="openFulImg(this.src)">
+    
+                              <div class="item-details">
+                                  <h4 class="item-price">S/ 9.99</h4>
+                                  <button class="item-button btn btn-primary addToCart">Cotizar</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="producto_galeria">
+                          <div class="item shadow mb-4">
+                              <h3 class="item-title">Camiones economicos 1</h3>
+    
+                              <img class="item-image" src="./images/imagesjugueteria/bebes/5.png" onclick="openFulImg(this.src)">
+                              <div class="item-details">
+                                  <h4 class="item-price">S/ 9.99</h4>
+                                  <button class="item-button btn btn-primary addToCart">Cotizar</button>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="row">
+                      <div class="producto_galeria">
+                          <div class="item shadow mb-4">
+                              <h3 class="item-title">Truck rojos</h3>
+    
+                              <img class="item-image" src="./images/imagesjugueteria/bebes/6.png" onclick="openFulImg(this.src)">
+                              <div class="item-details">
+                                  <h4 class="item-price">S/ 9.99</h4>
+                                  <button class="item-button btn btn-primary addToCart">Cotizar</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+              
+  
+              </div>
+          </div>
+      </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <a href="https://api.whatsapp.com/send?phone=51923264870" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp"></i> </a>
+
+
+        <footer class="footerpag">
+            <div class="footerbar">
+                <div class="columna">
+                    <figure>
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="Logo" class="logofooter">
+                        </a>
+                    </figure>
+                </div>
+                <div class="columna">
+                    <h2>Brindamos</h2>
+                    <p>Venta de productos al por mayor y por menor.</p>
+                    <p>Jirón Inambari 763 - Cercado de Lima.</p>
+                </div>
+                <div class="columna">
+                    <h2>Redes sociales</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/distribuidoramicky/" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/distribuidora_micky/?hl=es" class="fa fa-instagram"></a>
+                        <a href="https://goo.gl/maps/TCErLaEmGReMABVC8" class="fa fa-map-marker"></a>
+                        <a href="https://wa.me/51923264870" class="fa fa-whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerbar2">
+                <small>&copy; 2023 <b>Distribuidora Micky S.R.L.</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+    <!-- Footer END-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="./tienda.js"></script>
+   
+
+    <script src="aumento_foto.js"></script>
+
+</body>
+</html>
