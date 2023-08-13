@@ -505,7 +505,7 @@ font-weight: 600;
 
 /* campaña Section Start */
 .campaña{
-    padding: 4rem 8rem;
+    padding: 4rem 5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -640,7 +640,7 @@ font-weight: 600;
 /* Our Galary Start */
 .gallary{
     margin: 0rem 0 auto;
-    padding: 0 8rem;
+    padding: 0 5rem;
     
 }
 .gallary h3{
